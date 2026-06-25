@@ -1,8 +1,14 @@
 <h1 align="center">Hi, I'm Yangjunjie Lin 👋</h1>
 
 <p align="center">
-Computer Science undergraduate at the University of Manchester<br/>
-Interested in AI/LLM Agents, Full-stack Systems, and Computer Vision / Image Processing
+  Computer Science undergraduate at the University of Manchester<br/>
+  Interested in AI/LLM Agents, Full-stack Systems, and Computer Vision / Image Processing
+</p>
+
+<p align="center">
+  <a href="mailto:yangjunjie.lin@student.manchester.ac.uk">Email</a> ·
+  <a href="https://www.linkedin.com/in/yangjunjie-lin">LinkedIn</a> ·
+  <a href="https://github.com/Yangjunjie-Lin">GitHub</a>
 </p>
 
 ---
@@ -28,6 +34,7 @@ Current interests include:
 - Knowledge-enhanced AI systems
 - Tool-using assistants
 - Multi-step reasoning workflows
+- Edge-oriented LLM deployment
 
 ---
 
@@ -37,11 +44,11 @@ I enjoy building complete applications from backend logic to frontend interface.
 
 Areas I have worked with include:
 
-- Frontend interfaces with React / Vite
+- Frontend interfaces with React / Vite / Next.js
 - Backend APIs with Python / FastAPI
 - Authentication and database-backed applications
-- Lightweight web tools and productivity systems
-- End-to-end project structure, deployment, and documentation
+- Full-stack project structure and deployment
+- Testing, CI workflows, and security-aware development
 
 ---
 
@@ -61,13 +68,74 @@ Current interests include:
 
 ## Selected Projects
 
-| Area | Project Type | Description |
+| Area | Project | What it demonstrates |
 |---|---|---|
-| AI / LLM Agents | Agent and retrieval experiments | Exploring how LLMs can interact with tools, structured knowledge, and external data |
-| Full-stack Systems | Personal notebook system | A Google-login notebook application with persistent storage |
-| Full-stack Systems | Web application projects | Small full-stack systems built with modern frontend and backend tools |
-| Computer Vision / Image Processing | QR / image decoder tools | Lightweight tools for decoding and processing visual information |
-| Computer Vision / Image Processing | Image-processing experiments | Practical utilities and experiments around visual data |
+| AI / LLM Agents | [Hunton Fine-tune](https://github.com/Yangjunjie-Lin/hunton-finetune) | QLoRA fine-tuning, JSON action compiler, GGUF quantization, Raspberry Pi deployment |
+| Computer Vision / Image Processing | [Scanly](https://github.com/Yangjunjie-Lin/Scanly) | QR region detection, image preprocessing, jsQR + ZXing fallback, Next.js app |
+| Full-stack Systems | [NoteVault](https://github.com/Yangjunjie-Lin/notevault) | React + FastAPI + Firebase Auth, Firestore, CI, tests, rate limiting |
+| Creative Python GUI | [Aurora Christmas Tree](https://github.com/Yangjunjie-Lin/christmas-tree-card) | Tkinter + Pillow particle rendering, preview generation, CI |
+
+---
+
+## Project Highlights
+
+### [Hunton Fine-tune](https://github.com/Yangjunjie-Lin/hunton-finetune)
+
+An edge-oriented LLM fine-tuning workflow for adapting `Qwen2.5-3B-Instruct` into a strict JSON action compiler.
+
+Key points:
+
+- QLoRA fine-tuning workflow
+- Chat-style JSONL training format
+- JSON schema validation and safety-oriented output checking
+- LoRA merge, GGUF conversion, and Q4_K_M / Q5_K_M quantization
+- Raspberry Pi 5 deployment-oriented package structure
+- Experiment summary and reproducibility notes
+
+---
+
+### [Scanly](https://github.com/Yangjunjie-Lin/Scanly)
+
+A browser-based QR code scanning and decoding tool built with Next.js, React, and TypeScript.
+
+Key points:
+
+- Real-time camera QR scanning
+- Smart upload mode for difficult QR images
+- Edge-density-based QR region detection
+- Image preprocessing and targeted decoding
+- jsQR + ZXing fallback strategy
+- GitHub Actions CI for build and lint checks
+
+---
+
+### [NoteVault](https://github.com/Yangjunjie-Lin/notevault)
+
+A full-stack note-taking application with Google sign-in, authenticated backend APIs, and user-scoped storage.
+
+Key points:
+
+- React + Vite frontend
+- FastAPI backend
+- Firebase Authentication and Firestore
+- Backend Firebase ID token verification
+- Search, tags, Markdown preview, and rate limiting
+- Frontend smoke tests, backend pytest tests, and CI workflow
+
+---
+
+### [Aurora Christmas Tree](https://github.com/Yangjunjie-Lin/christmas-tree-card)
+
+A polished desktop Christmas tree animation built with Python, Tkinter, and Pillow.
+
+Key points:
+
+- Particle-based animated rendering
+- Tkinter GUI controls
+- Theme switching and PNG export
+- Headless preview generation
+- Lightweight Python desktop application structure
+- GitHub Actions CI for compile and preview checks
 
 ---
 
@@ -91,14 +159,16 @@ Current interests include:
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=111111)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
 
 ### Tools
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![WSL](https://img.shields.io/badge/WSL-4D4D4D?style=flat)
 
@@ -112,6 +182,7 @@ My longer-term interests include:
 
 - AI agents for complex task-solving
 - Knowledge-enhanced LLM systems
+- Graph-based retrieval and GraphRAG
 - Multimodal AI and Vision-Language Models
 - Full-stack AI applications
 
@@ -121,4 +192,4 @@ My longer-term interests include:
 
 - GitHub: [@Yangjunjie-Lin](https://github.com/Yangjunjie-Lin)
 - Email: yangjunjie.lin@student.manchester.ac.uk
-- LinkedIn: https://www.linkedin.com/in/yangjunjie-lin
+- LinkedIn: [yangjunjie-lin](https://www.linkedin.com/in/yangjunjie-lin)
