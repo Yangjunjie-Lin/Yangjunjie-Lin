@@ -117,18 +117,6 @@ My longer-term interests include:
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yangjunjie-Lin&show_icons=true&hide_border=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yangjunjie-Lin&layout=compact&hide_border=true" alt="Top Languages" />
-</p>
-
----
-
 ## Contact
 
 - GitHub: [@Yangjunjie-Lin](https://github.com/Yangjunjie-Lin)
