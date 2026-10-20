@@ -1,83 +1,35 @@
-<h1 align="center">Yangjunjie Lin</h1>
+# Yangjunjie Lin
 
-<p align="center">
-  Computer Science undergraduate at the University of Manchester<br/>
-  Building reliable AI systems, full-stack applications, and computer-vision tools
-</p>
+Computer Science undergraduate at the **University of Manchester**, working on online recurrent learning, knowledge representation and reliable AI systems.
 
-<p align="center">
-  <a href="mailto:yangjunjie.lin@student.manchester.ac.uk">Email</a> ·
-  <a href="https://www.linkedin.com/in/yangjunjie-lin">LinkedIn</a> ·
-  <a href="https://github.com/Yangjunjie-Lin">GitHub</a>
-</p>
+[Email](mailto:yangjunjie.lin@student.manchester.ac.uk) · [LinkedIn](https://www.linkedin.com/in/yangjunjie-lin)
 
----
+## Research background
 
-## Featured Projects
+- **CUHK-Shenzhen:** summer research from June to August 2026, followed by contracted project research collaboration from September 2026.
+- **Manchester final-year project:** online recurrent learning and temporal credit assignment, supervised by Mingfei Sun. My public [RTRL/SnAp study](https://github.com/Yangjunjie-Lin/rtrl-snap-reproduction) contains the earlier educational implementations and gradient checks.
 
-| Project | Focus | Evidence |
-|---|---|---|
-| [**Scanly**](https://github.com/Yangjunjie-Lin/Scanly) | Computer vision / browser systems | Privacy-first QR decoding pipeline, Web Worker cancellation, cross-browser E2E, and **51/52** internal regression fixtures |
-| [**NoteVault**](https://github.com/Yangjunjie-Lin/notevault) | Full-stack systems | React, FastAPI, Firebase Auth, Firestore, typed OpenAPI contracts, Emulator integration, and production-preview browser tests |
-| [**Hunton Fine-tune**](https://github.com/Yangjunjie-Lin/hunton-finetune) | Edge LLMs | QLoRA workflow for structured JSON actions, safety validation, GGUF quantization, and Raspberry Pi deployment packaging |
-| [**RTRL-SnAp Reproduction**](https://github.com/Yangjunjie-Lin/rtrl-snap-reproduction) | Research reproduction | BPTT, exact RTRL, and SnAp-1 on the Copy Task with gradient-consistency checks and experiment logging |
+I am interested in how AI systems represent knowledge, learn from changing information and respond to contradictory evidence. My projects combine experimental analysis with software that makes data, model behavior and results easier to inspect.
 
-### Scanly
+## Selected projects
 
-A feature-complete browser QR scanner with a layered heuristic image-processing pipeline. Uploaded images stay local, decoding runs in a dedicated Worker, and the repository includes benchmark, performance, coverage, accessibility, and browser-regression gates.
+| Project | Work represented |
+| --- | --- |
+| [**KG-MNP-Demo**](https://github.com/Yangjunjie-Lin/KG-MNP-Demo) | Ontology engineering toolchain with RDF/OWL compilation, SHACL validation, human review and traceable data handoffs. |
+| [**Scanly**](https://github.com/Yangjunjie-Lin/Scanly) | Modular barcode-scanning SDK with browser, Node.js and React APIs, WebAssembly decoding, temporal tracking and native wrappers. |
+| [**KnowTier**](https://github.com/Yangjunjie-Lin/KnowTier) | Local-first AI learning platform with source-grounded tutoring, versioned knowledge graphs and evidence-based mastery tracking. |
+| [**RTRL/SnAp study**](https://github.com/Yangjunjie-Lin/rtrl-snap-reproduction) | Educational JAX implementations of BPTT, exact RTRL and SnAp-1 on the Copy Task, with numerical gradient checks. |
+| [**ReCoAlign**](https://github.com/Yangjunjie-Lin/recoalign) | Archived vision-language evaluation research with frozen protocols, controlled experiments and documented negative results. |
+| [**NoteVault**](https://github.com/Yangjunjie-Lin/notevault) | AI-assisted Markdown notebook with authenticated storage, branching conversations and user-reviewed note capture. |
 
-[Repository](https://github.com/Yangjunjie-Lin/Scanly) · [Live demo](https://qr-decoder-theta.vercel.app)
+**More systems work:** [PrismTranscode](https://github.com/Yangjunjie-Lin/PrismTranscode), a local media-conversion workbench with a Go service, persistent job queues and in-browser FFmpeg WebAssembly processing.
 
-### NoteVault
+## Tools I use
 
-A production-oriented Markdown notebook with Google sign-in, verified backend identity, user-scoped Firestore access, mutation-safe timeline pagination, bounded search, and a generated FastAPI-to-TypeScript contract.
+- **Research and data:** Python, JAX, PyTorch, NumPy, RDF/OWL, SHACL and SPARQL.
+- **Applications and systems:** TypeScript, JavaScript, React, FastAPI, Go, PostgreSQL, SQLite and Firebase.
+- **Verification:** pytest, Playwright, GitHub Actions, numerical checks and reproducible experiment records.
 
-[Repository](https://github.com/Yangjunjie-Lin/notevault) · [Live app](https://notevault-lovat.vercel.app)
+## University service
 
----
-
-## Research & Engineering Work
-
-- [**Fire External Baseline Reproduction**](https://github.com/Yangjunjie-Lin/fire-external-baseline-reproduction) — controlled Direct LLM, BM25, Dense, Hybrid, and E-KELL-style comparison infrastructure with strict experiment, resource-identity, and fail-closed validation contracts. Formal empirical runs remain explicitly pending.
-- [**Aurora Christmas Tree**](https://github.com/Yangjunjie-Lin/christmas-tree-card) — a Python/Tkinter particle-rendering desktop application with themes, interaction, PNG export, headless preview generation, and CI.
-
----
-
-## Current Focus
-
-- AI agents with structured routing, retrieval, safety checks, and traceable evidence
-- Knowledge-enhanced generation, RAG, GraphRAG, and controlled evaluation
-- Real-time recurrent learning and reproducible algorithm studies
-- Vision-language models, image-text retrieval, and practical image-processing systems
-- Production-oriented software engineering: testing, contracts, security, deployment, and maintenance
-
----
-
-## Technical Stack
-
-**Languages**  
-Python · TypeScript · JavaScript · Java · C++ · SQL
-
-**AI / ML**  
-PyTorch · QLoRA · LLM agents · RAG / GraphRAG · Computer Vision · Vision-Language Models
-
-**Web / Systems**  
-React · Next.js · Vite · FastAPI · Firebase · Firestore · REST / OpenAPI
-
-**Engineering**  
-Git · GitHub Actions · Playwright · Vitest · pytest · Linux / WSL · Vercel
-
----
-
-## Engineering Principles
-
-- Prefer measurable evidence over broad claims.
-- Keep limitations, experiment status, and unsupported conclusions explicit.
-- Treat tests, security boundaries, reproducibility, and maintenance as part of the product.
-
----
-
-## Contact
-
-- Email: [yangjunjie.lin@student.manchester.ac.uk](mailto:yangjunjie.lin@student.manchester.ac.uk)
-- LinkedIn: [yangjunjie-lin](https://www.linkedin.com/in/yangjunjie-lin)
+Academic Representative for BSc (Hons) Computer Science in **2024/25 and 2025/26**, and volunteer **MathSoc Student Development Officer in 2025/26**, at the University of Manchester.
