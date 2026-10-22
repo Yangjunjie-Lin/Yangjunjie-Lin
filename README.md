@@ -17,7 +17,7 @@ I am interested in how AI systems represent knowledge, learn from changing infor
 | --- | --- |
 | [**KG-MNP-Demo**](https://github.com/Yangjunjie-Lin/KG-MNP-Demo) | Ontology engineering toolchain with RDF/OWL compilation, SHACL validation, human review and traceable data handoffs. |
 | [**Scanly**](https://github.com/Yangjunjie-Lin/Scanly) | Modular barcode-scanning SDK with browser, Node.js and React APIs, WebAssembly decoding, temporal tracking and native wrappers. |
-| [**KnowTier**](https://github.com/Yangjunjie-Lin/KnowTier) | Local-first AI learning platform with source-grounded tutoring, versioned knowledge graphs and evidence-based mastery tracking. |
+| [**Hunton Local Brain**](https://github.com/Yangjunjie-Lin/hunton-finetune) | QLoRA fine-tuning and edge-deployment workflow for Qwen2.5-3B, with structured JSON actions, GGUF quantization and validation tools. |
 | [**RTRL/SnAp study**](https://github.com/Yangjunjie-Lin/rtrl-snap-reproduction) | Educational JAX implementations of BPTT, exact RTRL and SnAp-1 on the Copy Task, with numerical gradient checks. |
 | [**ReCoAlign**](https://github.com/Yangjunjie-Lin/recoalign) | Archived vision-language evaluation research with frozen protocols, controlled experiments and documented negative results. |
 | [**NoteVault**](https://github.com/Yangjunjie-Lin/notevault) | AI-assisted Markdown notebook with authenticated storage, branching conversations and user-reviewed note capture. |
